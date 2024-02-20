@@ -1,0 +1,12 @@
+Source: ros-rolling-wiimote-msgs
+Section: misc
+Priority: optional
+Maintainer: Jonathan Bohren <jbo@jhu.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-cmake-auto, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-ament-lint-common <!nocheck>, ros-rolling-builtin-interfaces, ros-rolling-geometry-msgs, ros-rolling-rosidl-default-generators, ros-rolling-std-msgs, ros-rolling-ros-workspace, ros-rolling-rosidl-typesupport-fastrtps-c, ros-rolling-rosidl-typesupport-fastrtps-cpp
+Homepage: http://www.ros.org/wiki/wiimote
+Standards-Version: 3.9.2
+
+Package: ros-rolling-wiimote-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-builtin-interfaces, ros-rolling-geometry-msgs, ros-rolling-rosidl-default-runtime, ros-rolling-std-msgs, ros-rolling-ros-workspace
+Description: Messages used by wiimote package.
